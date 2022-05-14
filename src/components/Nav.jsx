@@ -7,16 +7,15 @@ function Nav () {
                 <div>MoonStocks</div>
             </Link>
 
-            {/* <Link>
-                <div to={'/stocks'}>Dashboard
-                </div>
+            <Link to={'/stocks'}>
+                <div >Dashboard</div>
             </Link>
 
-            <Link>
-                <div to={'/about'}>
+            <Link to={'/about'}>
+                <div >
                     About
                 </div>            
-            </Link> */}
+            </Link>
 
         </div>
     )
