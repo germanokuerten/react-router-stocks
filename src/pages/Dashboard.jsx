@@ -8,6 +8,7 @@ function Dashboard () {
     const API_KEY = '0bcb1720b658a08b2864d6c7f09aa17d'
     const { symbol } = useParams()
     const url = `https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=${API_KEY}`
+    // API DOCS https://site.financialmodelingprep.com/developer/docs/most-actives-stock-market-data-free-api
 
                 
     const [stock, setStock] = useState (null)
