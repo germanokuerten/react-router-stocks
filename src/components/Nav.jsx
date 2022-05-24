@@ -8,12 +8,12 @@ function Nav () {
             </Link>
 
             <Link to={'/stocks'}>
-                <div >Dashboard</div>
+                <div>dashboard</div>
             </Link>
 
             <Link to={'/about'}>
                 <div >
-                    About
+                    about
                 </div>            
             </Link>
 
