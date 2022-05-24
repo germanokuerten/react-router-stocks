@@ -3,7 +3,11 @@
 
 function StockPrice (props) {
     return (
-        <h1>{props.stock.symbol}</h1>
+        <div>
+            <br/>
+            <h3>Symbol: {props.stock.symbol}</h3>
+            <h4>Price: ${props.stock.price}</h4>
+        </div>
     )
 }
 

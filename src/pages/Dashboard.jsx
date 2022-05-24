@@ -29,6 +29,7 @@ function Dashboard () {
         
         return <StockPrice
                     stock={eachStock}
+                    price={eachStock}
                     key={index}/>
 
         })
