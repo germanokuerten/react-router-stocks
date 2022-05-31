@@ -1,6 +1,3 @@
-
-
-
 function StockPrice (props) {
     return (
         <div>
