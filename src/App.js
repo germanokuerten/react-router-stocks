@@ -7,6 +7,7 @@ import StockPrice from './pages/StockPrice'
 
 import Nav from './components/Nav'
 import Main from './components/Main';
+import IndividualStock from './pages/IndividualStock';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         
         <Route path="/about" element={<About/>} />
-        <Route path="/stocks/:symbol" element={<StockPrice/>} />
+        <Route path="/stocks/:symbol" element={<IndividualStock/>} />
         <Route path="/stocks" element={<Dashboard/>} />
       </Routes>
     </div>

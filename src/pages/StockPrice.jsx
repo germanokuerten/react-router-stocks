@@ -1,9 +1,13 @@
-function StockPrice (props) {
+import { Link } from 'react-router-dom'
+
+function StockPrice ({symbol, price}) {
     return (
         <div>
             <br/>
-            <h3>Symbol: {props.stock.symbol}</h3>
-            <h4>Price: ${props.stock.price}</h4>
+            <Link to={`/stocks/${symbol}`}>
+            <h3>Symbol: {symbol}</h3>
+            </Link>
+            <h4>Price: ${price}</h4>
         </div>
     )
 }
